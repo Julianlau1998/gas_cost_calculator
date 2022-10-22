@@ -86,15 +86,16 @@ export default {
   name: "Calculator-bmi",
   data () {
     return {
-      km: '',
-      price: '',
-      people: '',
-      consumption: ''
+      km: 100,
+      price: 2,
+      people: 2,
+      consumption: 10
     }
   },
   computed: {
     total () {
-      return ((this.km/100) * this.consumption * this.price) / this.people
+      const value = ((this.km/100) * this.consumption * this.price) / this.people
+      return (Math.round(value * 100)/100).toFixed(2)
     }
   }
 }
