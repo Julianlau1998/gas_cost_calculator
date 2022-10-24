@@ -1,0 +1,11 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "app.gas_cost_calc_jl.com",
+      "sha256_cert_fingerprints":
+      ["3B:D7:CD:42:FF:8E:6D:DA:7E:DB:16:CD:28:14:79:C3:4E:8B:00:B9:05:35:6A:33:B4:51:75:A8:8E:CF:6E:6D"]
+    }
+  }
+]
